@@ -30,7 +30,7 @@
     <section class="section contact">
       <h2>Get In Touch</h2>
       <div class="contact-box" role="region" aria-label="Contact options">
-        <p>Anonymous chat: <a class="btn" href="https://wa.me/2349058814859" target="_blank" rel="noopener noreferrer">💬 Open WhatsApp (anonymous)</a></p>
+        <p>Anonymous chat: <a class="btn" href="/api/wa" target="_self">💬 Start Anonymous WhatsApp Chat</a></p>
         <p>Prefer to write? Use this secure contact form — we will reply by email or WhatsApp privately.</p>
 
         <!-- Basic contact form that posts to Formspree. Replace the action URL with your Formspree form endpoint or your server endpoint. -->
@@ -50,7 +50,7 @@
         </form>
       </div>
 
-      <p class="small">Note: WhatsApp number is kept out of the public source for privacy. The WhatsApp link above opens a chat without showing the phone in the page markup.</p>
+      <p class="small">Note: The WhatsApp number is not included in the public source. Configure a server-side environment variable (WA_PHONE) and deploy to a platform that supports serverless functions (Vercel or Netlify). See README for details.</p>
     </section>
 
     <section class="section mission">
@@ -82,12 +82,12 @@
         <div>
           <h3>Group Healing Circles</h3>
           <p>Weekly safe-space meetings for people going through similar things</p>
-          <a class="btn" href="https://wa.me/2349058814859?text=I%20want%20group%20info" target="_blank" rel="noopener noreferrer">Join</a>
+          <a class="btn" href="/api/wa?text=I%20want%20group%20info" target="_self">Join</a>
         </div>
         <div>
           <h3>24/7 Anonymous Chat</h3>
           <p>Message us anytime — someone is always here</p>
-          <a class="btn" href="https://wa.me/2349058814859" target="_blank" rel="noopener noreferrer">Chat Now</a>
+          <a class="btn" href="/api/wa" target="_self">Chat Now</a>
         </div>
         <div>
           <h3>Make a Donation / Sponsor Someone</h3>
